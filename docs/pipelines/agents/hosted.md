@@ -4,7 +4,7 @@ ms.custom: seodec18, contperf-fy20q4
 description: Learn about using the Microsoft-hosted agents provided in Azure Pipelines
 ms.topic: conceptual
 ms.assetid: D17E9C01-8026-41E8-B44A-AB17EDE4AFBD
-ms.date: 03/30/2022
+ms.date: 06/06/2022
 monikerRange: '<= azure-devops'
 ---
 
