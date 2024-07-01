@@ -205,6 +205,8 @@ The following table describes the namespaces that manage object-level permission
       <br/>
       **Token format for repository-specific permissions**: `repoV2/PROJECT_ID/REPO_ID`  
       <br/>
+      **Token format for branch-level permissions** is described in [Git repo tokens for the security service](https://devblogs.microsoft.com/devops/git-repo-tokens-for-the-security-service/).
+      <br/><br/>
       **ID:** `2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87`
    :::column-end:::
 :::row-end:::
@@ -249,7 +251,7 @@ The following table describes the namespaces that manage object-level permission
       `Delete`      
    :::column-end:::
    :::column span="2":::
-      [Manages task group permissions](permissions.md) to edit and delete task groups, and administer task group permissions. To manage through the web portal, see [Pipeline permissions and security roles, Task group permissions](../../pipelines/policies/task-group-permissions.md). 
+      [Manages task group permissions](permissions.md) to edit and delete task groups, and administer task group permissions. To manage through the web portal, see [Pipeline permissions and security roles, Task group permissions](../../pipelines/policies/permissions.md#task-group-permissions). 
       <br/><br/>
       **Token format for project-level permissions**: `PROJECT_ID`
       <br/>
@@ -887,7 +889,7 @@ The following table describes the security namespaces and permissions that aren'
       `Manage`          
    :::column-end:::
    :::column span="2":::
-      Manages permissions and access to Kanban boards.  
+      Manages permissions and access to boards.  
       <br/>
       **ID:** `251e12d9-bea3-43a8-bfdb-901b98c0125e`
    :::column-end:::
@@ -1261,5 +1263,4 @@ The following namespaces are either deprecated or read-only. You shouldn't use t
 - [Security Namespaces REST API](/rest/api/azure/devops/security/)
 - [TFSSecurity](/azure/devops/server/command-line/tfssecurity-cmd) 
 - [Security glossary](security-glossary.md)
-- [Git repo tokens for the security service](https://devblogs.microsoft.com/devops/git-repo-tokens-for-the-security-service/)
 
