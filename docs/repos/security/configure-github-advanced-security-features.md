@@ -209,7 +209,7 @@ Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning aler
 Keep the following constraints in mind when using Copilot Autofix:
 
 - Autofix applies only to **CodeQL-based code scanning alerts**. It doesn't generate fixes for dependency scanning or secret scanning alerts.
-- Autofix proposes a fix — it doesn't automatically remediate the alert. You must review the pull request, validate that the change is correct, and merge it manually before the alert is closed.
+- Autofix proposes a fix - it doesn't automatically remediate the alert. You must review the pull request, validate that the change is correct, and merge it manually before the alert is closed.
 
 For more information on enabling and using Copilot Autofix, see [Copilot Autofix for code scanning](github-advanced-security-code-scanning-autofix.md).
 
