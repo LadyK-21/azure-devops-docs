@@ -121,8 +121,7 @@ To create a pull request:
 
 1. Edit the source and target branches as needed, enter a title and optional description, and select **Create**.
 
-> [!NOTE]
-> Visual Studio 2022 supports an in-IDE pull request experience for Azure DevOps repos (and GitHub). After creating a PR, you can view and review it directly in the IDE—including PR description, changed files, commits, and reviewers—without checking out the branch. To access the in-IDE PR view, go to **Git** > **\<your Git service>** > **View Pull Requests** and select a PR from the list. For more information, see [View, filter, and open pull requests](view-pull-requests.md).
+Visual Studio 2022 supports an in-IDE pull request experience for Azure DevOps repos (and GitHub). For more information, see [View, filter, and open pull requests](view-pull-requests.md).
 
 Visual Studio 2019 version 16.8 and later versions provides a Git version control experience while maintaining the **Team Explorer** Git user interface. To use **Team Explorer**, uncheck **Tools** > **Options** > **Preview Features** > **New Git user experience** from the menu bar. You can exercise Git features from either interface interchangeably.
 
