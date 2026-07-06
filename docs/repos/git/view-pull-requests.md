@@ -252,7 +252,7 @@ In Visual Studio 2022, you can open a pull request directly in the IDE. In the *
 > [!NOTE]
 > The in-IDE PR review experience in Visual Studio 2022 supports inline diff commenting (including comment threads, replies, and resolution), displays status checks, merge conflicts, and required approvals, and lets you approve and complete or merge a PR from within the IDE. For full review workflows, see [Review pull requests](review-pull-requests.md).
 >
-> Some PR viewing and commenting capabilities might require enabling related Preview Features in Visual Studio. To check, go to **Tools** > **Options** > **Preview Features** and look for pull request–related options. Enabling these preview options makes the in-IDE PR experience available if it isn't visible by default. For the latest information on available preview features, see the [Visual Studio release notes](https://learn.microsoft.com/visualstudio/releases/2026/release-notes).
+> Some PR viewing and commenting capabilities might require enabling related Preview Features in Visual Studio. To check, go to **Tools** > **Options** > **Preview Features** and look for pull request–related options. Enabling these preview options makes the in-IDE PR experience available if it isn't visible by default. For the latest information on available preview features, see the [Visual Studio release notes](/visualstudio/releases/2026/release-notes).
 
 Or, from the Team Explorer **Pull Requests** view, right-click the PR and select **Open in browser** to open the PR in the web portal.
 
