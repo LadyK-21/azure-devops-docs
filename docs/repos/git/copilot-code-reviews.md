@@ -172,7 +172,7 @@ No, usage in Azure DevOps doesn't use AI credits from GitHub Copilot plans.
 
 ### What are the data protection and privacy policies for Copilot code review in Azure Repos?
 
-Yes. Data protection and privacy guidance for Copilot code review in Azure Repos aligns with GitHub Copilot code review guidance. For official details, see these sources:
+Data protection and privacy guidance for Copilot code review in Azure Repos aligns with GitHub Copilot code review guidance. For official details, see these sources:
 
 - [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
 - [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
