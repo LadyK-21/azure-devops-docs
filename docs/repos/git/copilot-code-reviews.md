@@ -5,7 +5,7 @@ description: Learn how to enable and configure GitHub Copilot code review for pu
 ms.service: azure-devops-repos
 ms.subservice: azure-devops-repos-git
 ms.topic: how-to
-ms.date: 06/29/2026
+ms.date: 07/06/2026
 ms.author: chcomley
 author: chcomley
 ---
@@ -169,6 +169,23 @@ Token consumption depends on factors such as the size of the repository, the siz
 ### Do credits I purchase with Copilot subscriptions count toward code review usage in Azure DevOps? Can I use AI credits from a GitHub Copilot plan?
 
 No, usage in Azure DevOps doesn't use AI credits from GitHub Copilot plans.
+
+### What are the data protection and privacy policies for Copilot code review in Azure Repos?
+
+Yes. Data protection and privacy guidance for Copilot code review in Azure Repos aligns with GitHub Copilot code review guidance. For official details, see these sources:
+
+- [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
+- [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
+- [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
+### How are prompts, prompt context, and repository code handled? Are they stored or retained, and are they used for model training or service improvement?
+
+Copilot code review in Azure Repos follows GitHub Copilot data handling policies. For the most current details about how prompts, prompt context, and code snippets are processed, retained, and used for product improvement or model training, review:
+
+- [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
+- [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
+
+These pages are the source of truth for plan-specific behavior and retention details.
 
 ## Turn off Copilot code review
 
