@@ -249,6 +249,7 @@ To disable Advanced Security, any alerts and state of alerts get retained in the
 
 ## Related articles
 
+* [Available pull request status checks](../git/available-pr-status-checks.md)
 * [Code scanning alerts for GitHub Advanced Security for Azure DevOps](github-advanced-security-code-scanning.md)
 * [Copilot Autofix for code scanning](github-advanced-security-code-scanning-autofix.md)
 * [Dependency scanning alerts for GitHub Advanced Security for Azure DevOps](github-advanced-security-dependency-scanning.md)
