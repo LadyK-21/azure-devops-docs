@@ -127,6 +127,8 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
+          - text: Available pull request status checks
+            url: ./available-pr-status-checks.md
           - text: Git FAQs
             url: ./howto.yml
           - text: Git command reference
