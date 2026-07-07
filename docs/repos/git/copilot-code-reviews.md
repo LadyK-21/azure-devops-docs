@@ -185,6 +185,12 @@ Copilot code review in Azure Repos follows GitHub Copilot data handling policies
 
 Interaction data, including prompts, responses, code snippets, and related review context, is not used to train or improve AI models.
 
+### Does Copilot Code Reviews for Azure Repos respect data residency boundaries?
+
+Copilot Code Reviews in Azure Repos are powered by GitHub Copilot. Customer code and review content used during the review process are not stored in GitHub.
+
+Data residency for GitHub Copilot does not align with Azure DevOps organization data residency boundaries for this feature. For example, if your Azure DevOps organization is hosted in the EU, Copilot Code Review processing may still occur in another geography, such as the United States.
+
 ## Turn off Copilot code review
 
 To stop using Copilot code review, set the toggle to **Off** at the scope you want to disable:
