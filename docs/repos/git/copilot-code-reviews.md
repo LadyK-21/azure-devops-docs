@@ -53,19 +53,6 @@ After organization-level access is enabled, a repository owner turns on Copilot 
 
    :::image type="content" source="media/copilot-code-reviews/repository-level-preview-feature.png" alt-text="Repository settings page with the Enable Copilot code review for pull requests toggle set to On.":::
 
-## Enable Copilot code review for individual users
-
-After you enable the feature at the organization and repository levels, individual users can opt in through **Preview features**.
-
-1. Select your user avatar in the top right, and then select **Preview features**.
-1. Set the scope to **for me**.
-1. Locate **Copilot Code Review for Pull Requests** and toggle it to **On**.
-
-   :::image type="content" source="media/copilot-code-reviews/individual-level-preview-feature.png" alt-text="Preview features panel with Copilot Code Review for Pull Requests set to On.":::
-
-> [!TIP]
-> A Project Collection Administrator can set the scope to **for this organization** to enable the preview for all users at once.
-
 To verify the feature is enabled, open any pull request in the repository. **GitHub Copilot** should now appear as an available reviewer in the **Reviewers** list.
 
 ## Use Copilot code review
