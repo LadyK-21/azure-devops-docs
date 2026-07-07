@@ -174,18 +174,16 @@ No, usage in Azure DevOps doesn't use AI credits from GitHub Copilot plans.
 
 Data protection and privacy guidance for Copilot code review in Azure Repos aligns with GitHub Copilot code review guidance. For official details, see these sources:
 
-- [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
 - [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
 - [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 
 ### How are prompts, prompt context, and repository code handled? Are they stored or retained, and are they used for model training or service improvement?
 
-Copilot code review in Azure Repos follows GitHub Copilot data handling policies. For the most current details about how prompts, prompt context, and code snippets are processed, retained, and used for product improvement or model training, review:
+Copilot code review in Azure Repos follows GitHub Copilot data handling policies. 
 
-- [Updates to GitHub Copilot interaction data usage policy](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/)
 - [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
 
-These pages are the source of truth for plan-specific behavior and retention details.
+Interaction data, including prompts, responses, code snippets, and related review context, is not used to train or improve AI models.
 
 ## Turn off Copilot code review
 
