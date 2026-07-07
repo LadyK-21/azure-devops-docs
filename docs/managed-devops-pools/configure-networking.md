@@ -472,7 +472,7 @@ If you're migrating from Azure Virtual Machine Scale Sets agents and are already
 If you use an image that doesn't have the environment variables set, set a tag named `MdpProxyUri` on the pool specifying the proxy URL.
 
 > [!NOTE]
-> If the proxy doesn't allowlist the required endpoints for Managed DevOps Pools or otherwise blocks traffic, the Managed DevOps Pool provisioning failes. For more information on required endpoints, see [Restrict outbound connectivity](#restrict-outbound-connectivity).
+> If the proxy doesn't allowlist the required endpoints for Managed DevOps Pools or otherwise blocks traffic, the Managed DevOps Pool provisioning fails. For more information on required endpoints, see [Restrict outbound connectivity](#restrict-outbound-connectivity).
 
 ## Related content
 
