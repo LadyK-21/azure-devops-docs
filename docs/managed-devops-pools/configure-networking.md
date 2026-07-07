@@ -469,7 +469,7 @@ For Windows, these environment variables should be system environment variables.
 
 If you're migrating from Azure Virtual Machine Scale Sets agents and are already using the proxy environment variables on your image, you shouldn't need to make any changes. This process is described in [Azure Virtual Machine Scale Set agents: Customize pipeline agent configuration](/azure/devops/pipelines/agents/scale-set-agents#customizing-pipeline-agent-configuration).
 
-If you are using an image that doesn't have the environment variables set, you can set a tag named `MdpProxyUri` on the pool specifying the proxy URL.
+If you use an image that doesn't have the environment variables set, set a tag named `MdpProxyUri` on the pool specifying the proxy URL.
 
 > [!NOTE]
 > If the proxy doesn't allowlist the required endpoints for Managed DevOps Pools or otherwise blocks traffic, the Managed DevOps Pool provisioning failes. For more information on required endpoints, see [Restrict outbound connectivity](#restrict-outbound-connectivity).
