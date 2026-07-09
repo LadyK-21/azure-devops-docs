@@ -15,7 +15,7 @@ author: chcomley
 [!INCLUDE [version-eq-azure-devops](../../includes/version-eq-azure-devops.md)]
 
 > [!IMPORTANT]
-> This feature is in limited public **preview**
+> This feature is in limited public **preview**.
 >
 > Functionality might change or be removed without notice. Preview features have no Service Level Agreement (SLA) and limited support.
 
