@@ -15,6 +15,8 @@ ms.subservice: azure-devops-repos-git
 
 Writing good pull request descriptions is a great way to help reviewers know what to expect when reviewing code. They're also a great way to help track things that should be done for every change, such as testing, adding unit tests, and updating documentation. Pull request templates can help your developers create great pull request descriptions that meet your organization's standards.
 
+For comprehensive guidance on pull request policies, branch policies, and security best practices, see [Secure repositories and pull requests](secure-repositories-pull-requests.md).
+
 This article shows you how to get started with pull request templates.
 
 >[!NOTE]

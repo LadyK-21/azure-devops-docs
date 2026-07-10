@@ -21,6 +21,8 @@ Manage access to repositories to lock down who can contribute to your source cod
 > [!NOTE]
 > Branches inherit a subset of permissions from assignments made at the repository level. For branch permissions and policies, see [Set branch permissions](branch-permissions.md) and [Improve code quality with branch policies](branch-policies.md).
 
+For a comprehensive security guide covering repository permissions, branch policies, commit signing, and real-world implementation scenarios, see [Secure repositories and pull requests](secure-repositories-pull-requests.md).
+
 For guidance on who to provide greater permission levels, see [Manage access by using permissions](../../organizations/security/restrict-access.md).
 
 ## Prerequisites
