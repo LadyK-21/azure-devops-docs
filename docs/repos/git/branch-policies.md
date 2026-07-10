@@ -19,6 +19,8 @@ ms.subservice: azure-devops-repos-git
 
 Branch policies help teams protect their important [branches](./create-branch.md) of development. Policies enforce your team's code quality and change management standards. This article describes how to set and manage branch policies. For an overview of all repository and branch policies and settings, see [Git repository settings and policies](repository-settings.md).
 
+For a comprehensive security guide covering branch policies, repository access control, commit signing, and real-world implementation scenarios, see [Secure repositories and pull requests](secure-repositories-pull-requests.md).
+
 A branch with required policies configured can't be deleted, and requires pull requests (PRs) for all changes.
 
 ## Prerequisites 

@@ -88,10 +88,12 @@
     href: forks.md
   - name: Manage branches
     items:
+    - name: Secure repositories and pull requests
+      href: secure-repositories-pull-requests.md
     - name: Manage your branches
       href: manage-your-branches.md
     - name: Set branch policies
-      href: branch-policies.md    
+      href: branch-policies.md
     - name: Available pull request status checks
       href: available-pr-status-checks.md
     - name: Set branch permissions
