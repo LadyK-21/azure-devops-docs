@@ -115,6 +115,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Secure repositories and pull requests
+            url: ./secure-repositories-pull-requests.md
           - text: Configure repository settings
             url: ./repository-settings.md
           - text: Manage Git branch policies
