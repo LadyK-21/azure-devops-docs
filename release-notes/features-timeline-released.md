@@ -38,6 +38,19 @@ You can also [view the build numbers for each version](#azure-devops-server-buil
         </tr>
     </thead>
 <tr>
+    <td rowspan="11"><a href="2026/sprint-276-update.md" data-raw-source="[July 9 2026](2026/sprint-276-update.md)">July 9 2026</a></td>
+    <td>Enterprise Live Migration tools added to the Azure DevOps Remote MCP Server</td><td>General</td><td>Future</td></tr>
+    <td>Project-level cost reporting for Copilot Code Reviews</td><td>General</td><td>Future</td></tr>
+    <td>CodeQL default setup is now generally available</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
+    <td>CodeQL default setup now supports C/C++</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
+    <td>CodeQL default setup automatically queues an initial run on enablement</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
+    <td>Enable Autofix at the organization, project, or repository level</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
+    <td>Clear failure state and re-try for Autofix runs</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
+    <td>Disable unused service connections after 100 days</td><td>Pipelines</td><td>Future</td></tr>
+    <td>Retirement of Azure DevOps issuer for service connections</td><td>Pipelines</td><td>Future</td></tr>
+    <td>Pull request link added to git push output</td><td>Repos</td><td>Future</td></tr>
+    <td>Actual Result feature for manual testing is now generally available</td><td>Test Plans</td><td>Future</td></tr>
+<tr>
     <td rowspan="10"><a href="2026/sprint-275-update.md" data-raw-source="[June 17 2026](2026/sprint-275-update.md)">June 17 2026</a></td>
     <td>Coding agent model selection option</td><td>Boards</td><td>Future</td></tr>
     <td>GitHub Copilot Autofix for code scanning (limited public preview)</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
@@ -4313,7 +4326,7 @@ You can also [view the build numbers for each version](#azure-devops-server-buil
             <td></td><td>N/A</td>
         </tr>
         <tr>
-            <td><a href="https://azure.microsoft.com/blog/announcing-application-insights-public-preview-2/" data-raw-source="[29 April 2015](https://azure.microsoft.com/blog/announcing-application-insights-public-preview-2/)">29 April 2015</a></td>
+            <td>29 April 2015</td>
             <td>Application Insights Public Commercial Preview</td>
             <td></td><td>N/A</td>
         </tr>
