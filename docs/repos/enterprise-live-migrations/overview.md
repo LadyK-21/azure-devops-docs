@@ -20,7 +20,10 @@ Enterprise Live Migrations (ELM) helps you migrate Azure DevOps repositories to 
 > [!NOTE]
 > ELM is currently in limited public preview. To sign up and get started, [sign up here](https://nam.dcv.ms/VeDNq3VRhX).
 
-ELM is available in two experiences: the Azure DevOps CLI and the Azure DevOps portal. Use the CLI when you want to script or run migrations from the command line. Use the portal when you want a guided experience for selecting repositories, starting migrations, and tracking progress. 
+ELM is available in three experiences: the Azure DevOps CLI, the Azure DevOps portal, and the Azure DevOps Remote MCP Server. Use the CLI when you want to script or run migrations from the command line. Use the portal when you want a guided experience for selecting repositories, starting migrations, and tracking progress. Use the Remote MCP Server when you want agents to perform common Azure DevOps-to-GitHub Enterprise Cloud migration tasks through an automated, agent-driven interface.
+
+> [!NOTE]
+> ELM support in the Azure DevOps Remote MCP Server is currently in **private preview**. To use ELM through the Remote MCP Server, your organization must be enrolled in the private preview. For more information, see the [Azure DevOps Remote MCP Server documentation](../../mcp-server/remote-mcp-server.md).
 
 > [!IMPORTANT]
 > ELM only supports migrations from Azure DevOps Services to GitHub Enterprise Cloud with data residency. If you currently use Azure DevOps Server, first migrate to Azure DevOps Services before you use ELM.

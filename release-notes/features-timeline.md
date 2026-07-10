@@ -170,7 +170,7 @@ Below is a list of investments currently on our roadmap.
       </tr>   
       <tr>
         <td>
-            <a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a>
+            <a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (now includes <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Enterprise Live Migrations support (private preview)](/azure/devops/release-notes/2026/general/sprint-276-update)">Enterprise Live Migrations support (private preview)</a>)
          </td>
          <td>Boards</td>
          <td><img src="roadmap/2023/media/checkmark.png" alt="Done" />2026 Q1</td>
@@ -355,7 +355,7 @@ Below, you'll find several investments that we plan to deliver as part of this i
       </tr>        
       <tr>
          <td rowspan="5"><strong>2026 Q3</strong></td>
-         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a></td>
+         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (now includes <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Enterprise Live Migrations support (private preview)](/azure/devops/release-notes/2026/general/sprint-276-update)">Enterprise Live Migrations support (private preview)</a>)</td>
          <td>General</td>         
       </tr> 
       <tr>

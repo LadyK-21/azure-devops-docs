@@ -322,6 +322,9 @@ The test plan tools are consolidated into grouped dispatchers using an `action` 
 
 The Enterprise Live Migration tools use an `action` parameter to group and dispatch tasks. [Learn more](../repos/enterprise-live-migrations/overview.md) about the Enterprise Live Migration preview.
 
+> [!IMPORTANT]
+> ELM support in the remote Azure DevOps MCP Server is currently in **private preview** and is not available to all organizations. Even after you set `X-MCP-Toolsets: elm`, the ELM tools will only work if your organization has been enrolled in the private preview. If you need access, contact your organization administrator or refer to the [Enterprise Live Migrations overview](../repos/enterprise-live-migrations/overview.md) for more information.
+
 | Tool | Action | Description | Read-only |
 |---|---|---|:---:|
 | `enterprise_live_migration` | `list` | List migrations for the organization; optional project filter and includeAllMigrations flag | ✅ |
@@ -340,7 +343,7 @@ The Enterprise Live Migration tools use an `action` parameter to group and dispa
 | `enterprise_live_migration_pipelines_write` | `update` | Update pipeline rewiring config | ❌ |
 | `enterprise_live_migration_pipelines_write` | `delete` | Delete all pipeline clones for a terminal migration | ❌ |
 
-The Enterprise Live Migration tools are disabled by default. To enable them, use the `X-MCP-Toolsets` header with the `elm` value:
+The Enterprise Live Migration tools are disabled by default. Additionally, because ELM support in the remote MCP Server is in **private preview**, they're not accessible unless your organization is enrolled in the preview. To enable the ELM tools for your organization after enrollment, use the `X-MCP-Toolsets` header with the `elm` value:
 
 ```json
 {
@@ -423,6 +426,7 @@ The following example prompts for Copilot Chat help you choose the right MCP app
 | **Connection Refused** | Confirm your network allows outbound HTTPS to `mcp.dev.azure.com`. If you're on a corporate proxy or firewall, ask your administrator to allow-list the endpoint and retry without VPN to isolate network path issues. |
 | **No data returned** | Confirm you have appropriate permissions for the project or resources being queried. |
 | **Preview not available** | The preview is rolling out gradually. Check back later or contact your organization administrator. |
+| **ELM tools not available after setting `X-MCP-Toolsets: elm`** | ELM support in the remote MCP Server is in private preview and not enabled for all organizations. Setting `X-MCP-Toolsets: elm` is necessary but not sufficient—your organization must also be enrolled in the ELM private preview. Contact your organization administrator or see the [Enterprise Live Migrations overview](../repos/enterprise-live-migrations/overview.md) to request access. |
 
 For support, you can create an issue in the [local MCP Server](https://github.com/microsoft/azure-devops-mcp/issues/new?template=remote-mcp-server-issue.md) repo. Be sure to use the **Remote** issue template.
 
