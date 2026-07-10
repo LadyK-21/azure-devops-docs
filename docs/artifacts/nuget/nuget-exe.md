@@ -40,7 +40,7 @@ Use one of the following methods to install the Azure Artifacts Credential Provi
 
 ### Install using the helper script
 
-Alternatively, you can use the helper script to automate the installation. Make sure you have [PowerShell 5.1 or later](https://learn.microsoft.com/powershell/scripting/install/installing-powershell), and then run:
+Alternatively, you can use the helper script to automate the installation. Make sure you have [PowerShell 5.1 or later](/powershell/scripting/install/installing-powershell), and then run:
 
 ```powershell
 iex "& { $(irm https://aka.ms/install-artifacts-credprovider.ps1) } -AddNetfx"
