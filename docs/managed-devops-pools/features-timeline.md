@@ -12,11 +12,11 @@ ms.topic: overview
 
 The following section describes new features in development for Managed DevOps Pools.
 
-* **Instance Mix**: Instance Mix allows you to specify multiple Virtual Machine sizes for a single Managed DevOps Pool. Instead of being limited to a single VM SKU, you can define up to five VM sizes, increasing the likelihood of successful provisioning and providing more flexibility in how compute resources are allocated across the pool. This feature is built on top of [Azure Virtual Machine Scale Sets Instance Mix capabilities](/azure/virtual-machine-scale-sets/instance-mix-overview) and primarily helps improve resiliency and provisioning reliability. **Planned for July 2026.**
+* **Instance Mix**: Instance Mix allows you to specify multiple Azure Virtual Machine (VM) sizes for a single Managed DevOps Pool. Instead of being limited to a single VM size, you can define up to five VM sizes, which increases the likelihood of successful provisioning and provides more flexibility in how compute resources are allocated across the pool. This feature is built on top of [Azure Virtual Machine Scale Sets Instance Mix capabilities](/azure/virtual-machine-scale-sets/instance-mix-overview) and primarily helps improve resiliency and provisioning reliability. **Planned for July 2026.**
 
 * **Purge agents**: We're adding the ability for you to manually recycle your agents if desired. **Planned for August 2026.**
 
-* **Custom Startup Script**: We are adding the option to run a PowerShell script (Windows) or a shell script (Linux) for every image in a pool before they are assigned to an agent, to enable scenarios such as installing Trusted root CAs and setting environment variables. **Planned for August 2026**.
+* **Custom Startup Script**: We are adding the option to run a PowerShell script (Windows) or a shell script (Linux) for every image in a pool before they're assigned to an agent. This feature enables scenarios such as installing Trusted root CAs and setting environment variables. **Planned for August 2026**.
 
 * **Spot Virtual Machines instances**: Reduce your Azure cost [by up to 90%](/azure/architecture/guide/spot/spot-eviction#understand-spot-vm-pricing) by switching your non-time-critical pipelines to Spot Virtual Machines. CI/CD workloads make ideal candidates to use Spot Virtual Machines due to the ephemeral nature of CI/CD agents. For more information on Spot Virtual Machines, see [Spot Virtual Machines overview](https://azure.microsoft.com/products/virtual-machines/spot). **Planned for Late 2026.**
 
