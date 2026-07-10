@@ -9,12 +9,12 @@ monikerRange: "<=azure-devops"
 "recommendations": "true"
 ---
 
-# Connect to Azure Artifacts feeds with NuGet.exe
+# Connect to Azure Artifacts feeds by using NuGet.exe
 
 [!INCLUDE [version-lt-eq-azure-devops](../../includes/version-lt-eq-azure-devops.md)]
 
 Azure Artifacts helps you store and manage your packages from a single feed. You can share packages within your team, across organizations, or publicly.
-This article walks you through how to set up your project and authenticate to your Azure Artifacts feed using NuGet.exe.
+This article shows you how to set up your project and authenticate to your Azure Artifacts feed by using NuGet.exe.
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ For more information, see the [Azure Artifacts Credential Provider](https://gith
 
 #### [Linux/Mac](#tab/linuxmac/)
 
-Make sure you've completed the [prerequisites for Linux self-contained installs](https://github.com/microsoft/artifacts-credprovider?tab=readme-ov-file#for-linux-self-contained-installs), and then use one of the following methods to install the Azure Artifacts Credential Provider:
+Make sure you complete the [prerequisites for Linux self-contained installs](https://github.com/microsoft/artifacts-credprovider?tab=readme-ov-file#for-linux-self-contained-installs), and then use one of the following methods to install the Azure Artifacts Credential Provider:
 
 ### Manual installation
 
@@ -62,7 +62,7 @@ Make sure you've completed the [prerequisites for Linux self-contained installs]
 
 ### Install using the helper script
 
-The helper script installs the `netcore` version automatically. If you need both `netcore` and `netfx` binaries for scenarios such as mono MSBuild, use the manual installation method instead.
+The helper script automatically installs the `netcore` version. If you need both `netcore` and `netfx` binaries for scenarios such as mono MSBuild, use the manual installation method instead.
 
 1. Run one of the following commands:
     - Using wget:
