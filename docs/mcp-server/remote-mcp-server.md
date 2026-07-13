@@ -323,7 +323,7 @@ The test plan tools are consolidated into grouped dispatchers using an `action` 
 The Enterprise Live Migration tools use an `action` parameter to group and dispatch tasks. [Learn more](../repos/enterprise-live-migrations/overview.md) about the Enterprise Live Migration preview.
 
 > [!IMPORTANT]
-> ELM support in the remote Azure DevOps MCP Server is currently in **private preview** and is not available to all organizations. Even after you set `X-MCP-Toolsets: elm`, the ELM tools will only work if your organization has been enrolled in the private preview. If you need access, contact your organization administrator or refer to the [Enterprise Live Migrations overview](../repos/enterprise-live-migrations/overview.md) for more information.
+> ELM support in the remote Azure DevOps MCP Server is currently in **private preview** and isn't available to all organizations. Even if you set `X-MCP-Toolsets: elm`, the ELM tools only work if your organization is enrolled in the private preview. If you need access, contact your organization administrator or refer to the [Enterprise Live Migrations overview](../repos/enterprise-live-migrations/overview.md) for more information.
 
 | Tool | Action | Description | Read-only |
 |---|---|---|:---:|
