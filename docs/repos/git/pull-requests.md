@@ -53,7 +53,7 @@ For more information about permissions and access, see [Default Git repository a
 
 ## Create a pull request
 
-You can create a new PR from the Azure DevOps project website, from Visual Studio, from the Azure DevOps CLI, or directly from the Git command line after pushing a branch. When you push a new branch to Azure Repos (Azure DevOps Services), the `git push` output may include a direct URL to create a pull request.
+You can create a new PR from the Azure DevOps project website, from Visual Studio, from the Azure DevOps CLI, or directly from the Git command line after pushing a branch. When you push a new branch to Azure Repos (Azure DevOps Services), the `git push` output might include a direct URL to create a pull request.
 
 # [Browser](#tab/browser)
 
@@ -103,7 +103,7 @@ Select **Create a pull request** to go to a page where you can [enter your PR de
 ::: moniker range="azure-devops"
 
 > [!NOTE]
-> This feature is available in Azure DevOps Services only. Azure DevOps Server does not display the pull request URL in push output.
+> This feature is available in Azure DevOps Services only. Azure DevOps Server doesn't display the pull request URL in push output.
 
 ::: moniker-end
 
