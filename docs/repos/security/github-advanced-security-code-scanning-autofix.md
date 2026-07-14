@@ -54,7 +54,7 @@ Each fix generation consumes tokens, which include input tokens for the code con
 
 To keep billing simple, these tokens are converted into a standard unit called a **GitHub AI credit**, where 1 credit equals $0.01 USD. The charges are billed to the Azure subscription linked to your Azure DevOps organization and appear as a separate meter in Azure Cost Management.
 
-Charges include **Azure DevOps project tags**, enabling per-project cost analysis in Azure Cost Management. You can filter or group by these project tags to attribute Copilot Autofix spend to individual Azure DevOps projects and set project-level budgets and cost alerts.
+Charges include **Azure DevOps project tags**, which enable per-project cost analysis in Azure Cost Management. You can filter or group by these project tags to attribute Copilot Autofix spend to individual Azure DevOps projects and set project-level budgets and cost alerts.
 
 The cost of each fix varies with the size of the surrounding code context and the complexity of the change.
 
