@@ -117,11 +117,13 @@ Each completed code review consumes tokens, including input tokens sent to the m
 
 Charges go to the Azure subscription linked to your Azure DevOps organization and appear as a separate meter in Azure Cost Management. The cost of each review varies based on factors like pull request size and the number of lines changed. To estimate expected costs in your environment, enable the feature for one or two repositories first and monitor daily usage.
 
+Copilot code review charges in Azure Cost Management now include **Azure DevOps project tags**, enabling per-project cost reporting. You can filter or group cost analysis by these project tags to attribute usage and spend to individual Azure DevOps projects.
+
 To monitor your daily charges:
 
 1. In the [Azure portal](https://portal.azure.com), go to your subscription.
 1. Select **Cost Management** > **Cost analysis**.
-1. Filter by product to view the organization's daily costs.
+1. Filter by product to view the organization's daily costs. To view costs for a specific project, add a filter or group by the Azure DevOps project tag.
 
    :::image type="content" source="media/copilot-code-reviews/billing-cost-analysis.png" alt-text="Screenshot of Azure Cost Management Cost analysis filtered by product to show Copilot code review charges."::: 
 
@@ -135,7 +137,7 @@ Create an Azure budget that notifies you when spending reaches a threshold you s
 
    :::image type="content" source="media/copilot-code-reviews/azure-portal-cost-management-budget-addition.png" alt-text="Screenshot of Azure Cost Management budget filters with Product set to GitHub Copilot for AzDO.":::
 
-1. If the subscription is linked to multiple Azure DevOps organizations, add a filter for **Tag** and select the organization name tags you want the alert to target.
+1. If the subscription is linked to multiple Azure DevOps organizations, add a filter for **Tag** and select the organization name tags you want the alert to target. If project tags are present, you can also filter or group by project tag to create project-level budget alerts.
 1. Enter a budget name, choose a reset period and expiration date, set the budget amount, and then select **Next**.
 1. Add one or more alert thresholds as a percentage of the budget (for example, 75% and 90%), set **Type** to **Actual** or **Forecasted**, and enter the email addresses to notify.
 1. Select **Create**.
