@@ -2,7 +2,7 @@
 title: Azure DevOps Roadmap
 author: gloridelmorales
 ms.author: glmorale
-ms.date: 04/29/2026
+ms.date: 07/14/2026
 ms.topic: article
 ms.service: azure-devops
 ms.subservice: azure-devops-release-notes
@@ -170,7 +170,7 @@ Below is a list of investments currently on our roadmap.
       </tr>   
       <tr>
         <td>
-            <a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a>
+            <a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (includes Enterprise Live Migrations support in private preview; see <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Sprint 276 update](/azure/devops/release-notes/2026/general/sprint-276-update)">Sprint 276 update</a>)
          </td>
          <td>Boards</td>
          <td><img src="roadmap/2023/media/checkmark.png" alt="Done" />2026 Q1</td>
@@ -355,7 +355,7 @@ Below, you'll find several investments that we plan to deliver as part of this i
       </tr>        
       <tr>
          <td rowspan="5"><strong>2026 Q3</strong></td>
-         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a></td>
+         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (includes Enterprise Live Migrations support in private preview; see <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Sprint 276 update](/azure/devops/release-notes/2026/general/sprint-276-update)">Sprint 276 update</a>)</td>
          <td>General</td>         
       </tr> 
       <tr>
