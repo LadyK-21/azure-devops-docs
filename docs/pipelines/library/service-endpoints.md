@@ -5,7 +5,7 @@ description: Learn how to manage Azure Pipelines service connections and get a r
 ms.topic: concept-article
 ms.author: ronai
 author: RoopeshNair
-ms.date: 04/22/2026
+ms.date: 07/15/2026
 monikerRange: '<= azure-devops'
 ---
 
@@ -14,6 +14,9 @@ monikerRange: '<= azure-devops'
 [!INCLUDE [version-lt-eq-azure-devops](../../includes/version-lt-eq-azure-devops.md)]
 
 This article covers service connections in Azure Pipelines. Service connections are authenticated connections between Azure Pipelines and external or remote services that you use to execute tasks in a job.
+
+> [!IMPORTANT]
+> Service connections have standing access to the services they connect to. If a connection is still referenced in a pipeline but that pipeline is no longer being used, the access can remain longer than intended. To reduce unnecessary standing access, Azure Pipelines is starting to automatically disable service connections that haven't been used for 100 days.
 
 For example, your pipelines might use the following categories of service connections: 
 
@@ -112,6 +115,10 @@ To view information about a service connection, from your project select **Proje
 - To edit service connection properties, select **Edit** on the service connection page. The parameters that you can edit depend on the service connection type and authentication method.
 
 - You can also select **Security** or **Delete** on the **More options** menu. For more information about managing security permissions, see [Set service connection permissions](../policies/permissions.md#set-service-connection-security-in-azure-pipelines).
+
+- You can select **Disable** on the **More options** menu to prevent pipelines from using the service connection when the connection is no longer needed or should no longer have standing access.
+
+- If Azure Pipelines disables a service connection after 100 days of inactivity, select **Enable** on the same menu after you confirm the connection is still required.
 
 - To edit existing approvals and checks, select from the **More options** menu next to the approval on the **Approvals and checks** tab.
 
