@@ -4,7 +4,7 @@ description: Learn how to use an Azure Resource Manager service connection to co
 ms.topic: concept-article
 ms.author: rabououn
 author: ramiMSFT
-ms.date: 04/22/2026
+ms.date: 07/15/2026
 ai-usage: ai-assisted
 monikerRange: '<= azure-devops'
 ms.custom: devx-track-arm-template, arm2024, sfi-image-nochange
@@ -15,6 +15,9 @@ ms.custom: devx-track-arm-template, arm2024, sfi-image-nochange
 [!INCLUDE [version-lt-eq-azure-devops](../../includes/version-lt-eq-azure-devops.md)]
 
 An Azure Resource Manager service connection allows you to connect to Azure resources like Azure Key Vault from your pipeline. This connection lets you use a pipeline to deploy to Azure resources, such as an Azure App Service app, without needing to authenticate each time.
+
+> [!IMPORTANT]
+> Azure Pipelines is starting to automatically disable service connections that haven't been used for 100 days. A service connection administrator, such as the creator of the connection, or a Project Administrator can re-enable the connection from **Project settings** > **Service connections** if it's still needed. 
 
 ::: moniker range="azure-devops"
 You have multiple authentication options for connecting to Azure with an Azure Resource Manager service connection. We recommend using [workload identity federation](/azure/active-directory/workload-identities/workload-identity-federation) with either an app registration or managed identity. Workload identity federation eliminates the need for secrets and secret management. 
