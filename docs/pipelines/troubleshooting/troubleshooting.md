@@ -429,15 +429,15 @@ D:\home\python364x64\python.exe -m pip install -r requirements.txt
 
 To troubleshoot issues related to service connections, see [Service connection troubleshooting](../release/azure-rm-endpoint.md). To specifically troubleshoot service connections using workload identity for authentication, see [Troubleshoot workload identity service connections](../release/troubleshoot-workload-identity.md).
 
-If a previously working pipeline now fails when it tries to use a service connection, check whether Azure Pipelines disabled the connection after 100 days of inactivity. To resolve the issue:
+If a previously working pipeline now fails when it tries to use a service connection, check whether Azure Pipelines disabled the connection after 100 days of inactivity. To resolve the problem:
 
 1. Go to **Project settings** > **Service connections**.
 1. Open the service connection used by the failing task.
 1. Review the **Overview** and **Usage history** tabs to confirm the connection is disabled and determine when it was last used.
-1. If the connection is still required, select **More actions** > **Enable**.
-1. Run the pipeline again, and if authentication still fails, verify that the external credential or backing identity is still valid.
+1. If you still need the connection, select **More actions** > **Enable**.
+1. Run the pipeline again. If authentication still fails, verify that the external credential or backing identity is still valid.
 
-Disable and enable actions are recorded in the [Audit log](../../organizations/audit/auditing-events.md#library-events).
+The [Audit log](../../organizations/audit/auditing-events.md#library-events) records disable and enable actions.
 
 ### Pipeline stopped hearing from agent
 

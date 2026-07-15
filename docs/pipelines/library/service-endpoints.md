@@ -116,7 +116,7 @@ To view information about a service connection, from your project select **Proje
 
 - You can also select **Security** or **Delete** on the **More options** menu. For more information about managing security permissions, see [Set service connection permissions](../policies/permissions.md#set-service-connection-security-in-azure-pipelines).
 
-- You can select **Disable** on the **More options** menu to prevent pipelines from using the service connection when the connection is no longer needed or should no longer have standing access.
+- Select **Disable** on the **More options** menu to prevent pipelines from using the service connection when the connection is no longer needed or should no longer have standing access.
 
 - If Azure Pipelines disables a service connection after 100 days of inactivity, select **Enable** on the same menu after you confirm the connection is still required.
 

@@ -76,7 +76,7 @@ Service connections should access only the necessary resources.
 - When creating a new [Azure Resource Manager service connection](../library/connect-to-azure.md), always choose a specific resource group.
 - Ensure the resource group contains only the necessary VMs or resources required for the build.
 - When configuring the GitHub app, grant access only to the repositories you intend to build.
-- Review service connection **Usage history** regularly and remove or disable connections that are no longer needed. Service connections have standing access to the services they connect to, so unused connections should not remain enabled longer than necessary. Azure Pipelines is starting to automatically disable inactive service connections after 100 days of inactivity.
+- Review service connection **Usage history** regularly and remove or disable connections that are no longer needed. Service connections have standing access to the services they connect to, so unused connections shouldn't remain enabled longer than necessary. Azure Pipelines is starting to automatically disable inactive service connections after 100 days of inactivity.
 
 ## Protect projects
 
