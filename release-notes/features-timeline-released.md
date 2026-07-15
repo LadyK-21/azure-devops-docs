@@ -58,8 +58,8 @@ You can also [view the build numbers for each version](#azure-devops-server-buil
     <td>Advanced Security status checks for pull requests (general availability)</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
     <td>Build identity access to view alerts is being removed</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
     <td>Finer-grained comment requirement for pull request validation from GitHub forks</td><td>Pipelines</td><td>Future</td></tr>
-    <td>Access Azure DevOps with Microsoft Entra authentication</td><td>Pipelines</td><td>Future</td></tr>
-    <td>Apple Silicon for macOS pipeline agents (Pay-as-you-Go preview)</td><td>Pipelines</td><td>Future</td></tr>
+    <td>Access Azure DevOps with Microsoft Entra authentication</td><td>Pipelines</td><td>N/A</td></tr>
+    <td>Apple Silicon for macOS pipeline agents (Pay-as-you-Go preview)</td><td>Pipelines</td><td>N/A</td></tr>
     <td>Enable commit comparison in branch compare page</td><td>Repos</td><td>Future</td></tr>
     <td>Copilot code reviews for Azure Repos (Limited Public Preview)</td><td>Repos</td><td>Future</td></tr>
 <tr>
@@ -75,7 +75,7 @@ You can also [view the build numbers for each version](#azure-devops-server-buil
     <td>Deleted and disabled repositories no longer appear in security overview</td><td>GitHub Advanced Security for Azure DevOps</td><td>N/A</td></tr>
     <td>Improved copy work item choices</td><td>Boards</td><td>Future</td></tr>
     <td>Enhanced Security for GitHub Integration REST APIs</td><td>Boards</td><td>Future</td></tr>
-    <td>Windows ARM64 agent available in public preview</td><td>Pipelines</td><td>Future</td></tr>
+    <td>Windows ARM64 agent available in public preview</td><td>Pipelines</td><td>N/A</td></tr>
     <td>Improvements to pull request status checks</td><td>Repos</td><td>Future</td></tr>
     <td>Show unresolved comments on pull request list</td><td>Repos</td><td>Future</td></tr>
     <td>Git object count limit removed</td><td>Repos</td><td>Future</td></tr>
@@ -4331,7 +4331,7 @@ You can also [view the build numbers for each version](#azure-devops-server-buil
             <td></td><td>N/A</td>
         </tr>
         <tr>
-            <td><a href="/azure/devops/integrate/" data-raw-source="[29 April 2015](/azure/devops/integrate/)">29 April 2015</a></td>
+            <td>href="/azure/devops/integrate/" data-raw-source="[29 April 2015](/azure/devops/integrate/)"</td>
             <td>Extensions</td>
             <td></td><td>2015.2</td>
         </tr>

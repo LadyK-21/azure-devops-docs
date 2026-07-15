@@ -12,7 +12,7 @@ hide_comments: true
 
 # Bulk attachment actions in Azure Boards
 
-Bulk attachment actions in Azure Boards simplify managing attachments on work items.
+Bulk attachment actions in Azure Boards simplify managing attachments on work items.Expand commentComment on line R15Resolved
 
 Select one or more attachments by using the checkboxes, and then choose **Download** or **Delete** from the new actions next to **Add**. These actions are available when you select at least one attachment.
 
