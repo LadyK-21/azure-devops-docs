@@ -188,14 +188,18 @@ Below, you'll find several investments that we plan to deliver as part of this i
         </tr>
     </thead>
     <tbody>       
-      <td rowspan="14"><strong>2026 Q3</strong></td>
+      <td rowspan="16"><strong>2026 Q3</strong></td>
       <td><a href="/azure/devops/release-notes/roadmap/2023/commits-search" data-raw-source="[Commits search](/azure/devops/release-notes/roadmap/2023/commits-search)">Commits search</a></td>
         <td>General</td>
       </tr>
       <tr>          
         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server(GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server (GA)</a></td>
         <td>General</td>
-      </tr>   
+      </tr>
+       <tr>
+         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (includes Enterprise Live Migrations support in private preview; see <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Sprint 276 update](/azure/devops/release-notes/2026/general/sprint-276-update)">Sprint 276 update</a>)</td>
+         <td>General</td>         
+      </tr>    
       <tr>
         <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix" data-raw-source="[Copilot Autofix for code scanning alerts (public preview)](/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix)">Copilot Autofix for code scanning alerts (public preview)</a></td>
         <td>GitHub Advanced Security for Azure DevOps</td>
@@ -208,9 +212,17 @@ Below, you'll find several investments that we plan to deliver as part of this i
         <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
         <td>Boards</td>
       </tr>
+      <tr>          
+        <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
+        <td>Boards</td>
+      </tr>
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions" data-raw-source="[Bulk attachment actions in Azure Boards](/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions)">Bulk attachment actions in Azure Boards</a></td>
          <td>Boards</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
+        <td>Repos</td>
       </tr>
       <tr>
         <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
@@ -240,19 +252,6 @@ Below, you'll find several investments that we plan to deliver as part of this i
          <td><a href="/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwright" data-raw-source="[Support for JavaScript (Playwright) in Azure Test Plans](/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwrigth)">Support for JavaScript (Playwright) in Azure Test Plans</a></td>
          <td>Test Plans</td>
       </tr>        
-      <tr>
-         <td rowspan="5"><strong>2026 Q3</strong></td>
-         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (includes Enterprise Live Migrations support in private preview; see <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Sprint 276 update](/azure/devops/release-notes/2026/general/sprint-276-update)">Sprint 276 update</a>)</td>
-         <td>General</td>         
-      </tr> 
-      <tr>
-        <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
-        <td>Repos</td>
-      </tr>
-      <tr>          
-        <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
-        <td>Boards</td>
-      </tr>
       <td rowspan="20"><strong>Future</strong></td>
         <td><a href="/azure/devops/release-notes/roadmap/auditing-ga" data-raw-source="[Auditing GA](/azure/devops/release-notes/roadmap/auditing-ga)">Auditing GA</a></td>
         <td>General</td>
