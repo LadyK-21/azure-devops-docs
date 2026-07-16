@@ -51,7 +51,7 @@ Default setup scans the following languages: C#, C/C++, Java, JavaScript/TypeScr
 > You can start with default setup and switch to advanced setup later if you need more control, or use both. For information on configuring default setup, see [Configure GitHub Advanced Security features](configure-github-advanced-security-features.md#set-up-code-scanning).
 
 > [!NOTE]
-> When you enable CodeQL default setup at the organization or project level, an initial scan run is automatically queued for all affected repositories. Results begin appearing without waiting for the next scheduled run.
+> When you enable CodeQL default setup at the organization or project level, an initial scan run is automatically queued for all affected repositories. Results begin appearing gradually as each repository's scan completes, without waiting for the next scheduled run.
 
 ## Configure default setup options
 

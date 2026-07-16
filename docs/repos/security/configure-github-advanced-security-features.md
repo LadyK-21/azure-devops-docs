@@ -199,7 +199,9 @@ To generate alerts, default setup runs on a weekly schedule. Any detected vulner
 
 ### Copilot Autofix for code scanning
 
-Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning alerts and proposes targeted fixes. When you generate a fix for a supported alert, Copilot Autofix creates a pull request with the proposed code change so you can review, edit, and merge it through your normal pull request workflow. Copilot Autofix can be enabled at the organization, project, or repository level.
+Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning alerts and proposes targeted fixes. When you generate a fix for a supported alert, Copilot Autofix creates a pull request with the proposed code change so you can review, edit, and merge it through your normal pull request workflow.
+
+Copilot Autofix can be enabled at the organization, project, or repository level.
 
 > [!NOTE]
 > Copilot Autofix is in limited public preview. To request access for your organization, [sign up for the public preview](https://aka.ms/ghazdo-autofix/preview).
