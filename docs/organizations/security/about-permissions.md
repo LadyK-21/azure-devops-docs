@@ -9,7 +9,7 @@ ms.author: chcomley
 author: chcomley
 monikerRange: '<= azure-devops'
 ai-usage: ai-assisted
-ms.date: 02/19/2026
+ms.date: 07/16/2026
 ---
 
 # About permissions and security groups
@@ -21,6 +21,12 @@ In this article, you learn about access levels and permissions through inheritan
 For an overview of default permissions, see [Default permissions quick reference](permissions-access.md).
 
 For more information, see [Security overview](security-overview.md).
+
+::: moniker range="= azure-devops"
+
+For performance guidance for large organizations, see [Permission performance recommendations](permission-performance-recommendations.md).
+
+::: moniker-end
 
 [!INCLUDE [ai-assistance-callout](../../includes/ai-assistance-callout.md)]
 
@@ -356,6 +362,7 @@ For more information, see [Manage or enable features](../../project/navigation/p
 ::: moniker range="= azure-devops"
 
 - [Troubleshoot access and permission issues](troubleshoot-permissions.md)
+- [Optimize permissions for performance](permission-performance-recommendations.md)
 - [Learn about security, authentication, and authorization](about-security-identity.md)
 - [Reference permissions and groups](permissions.md)  
 - [Add and manage security groups](add-manage-security-groups.md)   
