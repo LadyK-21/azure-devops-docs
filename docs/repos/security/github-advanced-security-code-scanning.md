@@ -38,7 +38,7 @@ There are two main ways to set up code scanning for your repository: **default s
 
 **Default setup** is the quickest way to enable code scanning. It creates a managed scanning configuration behind the scenes and requires no pipeline changes. We recommend starting with default setup for most repositories.
 
-Default setup scans the following languages: C#, Java, JavaScript/TypeScript, Python, Ruby, and Rust. C/C++, Go, and Swift aren't currently supported by default setup. To scan these languages, use advanced setup.
+Default setup scans the following languages: C#, C/C++, Java, JavaScript/TypeScript, Python, Ruby, and Rust. Go and Swift aren't currently supported by default setup. To scan these languages, use advanced setup.
 
 **Advanced setup** gives you full control by adding CodeQL tasks directly to your Azure Pipelines. Use advanced setup when you need to:
 - Manage specific agent pools for different languages or compute needs
@@ -49,6 +49,9 @@ Default setup scans the following languages: C#, Java, JavaScript/TypeScript, Py
 
 > [!TIP]
 > You can start with default setup and switch to advanced setup later if you need more control, or use both. For information on configuring default setup, see [Configure GitHub Advanced Security features](configure-github-advanced-security-features.md#set-up-code-scanning).
+
+> [!NOTE]
+> When you enable CodeQL default setup at the organization or project level, an initial scan run is automatically queued for all affected repositories. Results begin appearing without waiting for the next scheduled run.
 
 ## Configure default setup options
 
@@ -189,7 +192,7 @@ CodeQL supports and uses the following language identifiers:
 
 For more information, see [Supported languages and frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/). 
 
-You can view the specific queries and task details executed by CodeQL in the build log. 
+You can view the specific queries and task details executed by CodeQL in the build log. When using default setup, the enhanced log viewer provides clearer run naming and new state and repository filters to help you find and review specific scan runs in the Azure DevOps agent pool job log view.
 
 [![Screenshot of code scanning publish results task.](./media/code-scanning-build-log.png)](./media/code-scanning-build-log.png#lightbox)
 

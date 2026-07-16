@@ -178,7 +178,7 @@ To gain access to code scanning features, you need the **Code Security** product
 
 Code scanning is also a pipeline-based scanning tool where results are aggregated per repository. You can enable code scanning using **default setup** or **advanced setup**. You can run both in the same organization, depending on your needs and level of scanning control.
 
-**Default setup** is the quickest way to enable code scanning. Default setup runs on a scheduled basis by using Azure Pipelines, detects the supported languages in your repository, and automatically configures scanning for them. If the languages in your repository change, the scanning configuration updates automatically. Default setup currently supports C#, Java, JavaScript/TypeScript, Python, Ruby, and Rust. C/C++, Go, and Swift aren't supported by default setup; use advanced setup to scan them. 
+**Default setup** is the quickest way to enable code scanning. Default setup runs on a scheduled basis by using Azure Pipelines, detects the supported languages in your repository, and automatically configures scanning for them. If the languages in your repository change, the scanning configuration updates automatically. Default setup currently supports C#, C/C++, Java, JavaScript/TypeScript, Python, Ruby, and Rust. Go and Swift aren't supported by default setup; use advanced setup to scan them. 
 
 :::zone pivot="bundled-ghazdo"
 :::image type="content" source="media/advanced-security-codeql-default-setup-enablement-repo.png" lightbox="media/advanced-security-codeql-default-setup-enablement-repo.png" alt-text="Screenshot of repository settings showing the Run CodeQL analysis with default setup checkbox enabled under Advanced Security.":::
@@ -195,11 +195,11 @@ The agent pool and scan schedule for default setup are shared across all reposit
 > [!TIP]
 > We recommend starting with default setup. If you need more control over your scanning configuration, such as different agent pools, custom build steps for compiled languages, or scanning across multiple branches, you can run both default setup and advanced setup in the same organization. For more information, see [Set up code scanning](github-advanced-security-code-scanning.md#advanced-setup-for-code-scanning).
 
-To generate alerts, default setup runs on a weekly schedule. Any detected vulnerabilities are displayed in the Advanced Security tab.
+To generate alerts, default setup runs on a weekly schedule. Any detected vulnerabilities are displayed in the Advanced Security tab. When you enable CodeQL default setup at the organization or project level, an initial scan run is automatically queued for all affected repositories, so results begin appearing without waiting for the next scheduled run.
 
 ### Copilot Autofix for code scanning
 
-Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning alerts and proposes targeted fixes. When you generate a fix for a supported alert, Copilot Autofix creates a pull request with the proposed code change so you can review, edit, and merge it through your normal pull request workflow.
+Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning alerts and proposes targeted fixes. When you generate a fix for a supported alert, Copilot Autofix creates a pull request with the proposed code change so you can review, edit, and merge it through your normal pull request workflow. Copilot Autofix can be enabled at the organization, project, or repository level.
 
 > [!NOTE]
 > Copilot Autofix is in limited public preview. To request access for your organization, [sign up for the public preview](https://aka.ms/ghazdo-autofix/preview).
@@ -210,6 +210,7 @@ Keep the following constraints in mind when using Copilot Autofix:
 
 - Autofix applies only to **CodeQL-based code scanning alerts**. It doesn't generate fixes for dependency scanning or secret scanning alerts.
 - Autofix proposes a fix - it doesn't automatically remediate the alert. You must review the pull request, validate that the change is correct, and merge it manually before the alert is closed.
+- If an Autofix run fails, a prominent failure state is shown in the alert detail view with an option to retry the run.
 
 For more information on enabling and using Copilot Autofix, see [Copilot Autofix for code scanning](github-advanced-security-code-scanning-autofix.md).
 
