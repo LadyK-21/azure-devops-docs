@@ -28,6 +28,53 @@ Each feature is linked to an article where you can learn more about a particular
 
 ## Initiatives
 
+### Copilot Code Reviews for Azure DevOps
+
+Copilot Code Reviews for Azure DevOps brings AI-assisted pull request reviews to Azure Repos. During review, Copilot analyzes pull request changes and posts comments with potential issues and suggested improvements so teams can identify problems earlier and strengthen code quality before merge. The experience is designed for organizations that continue to build on Azure Repos.
+
+This feature is currently in limited public preview.
+
+<table>
+      <thead>
+            <tr>
+                  <th>Feature</th>                  
+                  <th>Quarter</th>
+            </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code Reviews for Azure Repos (limited public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code Reviews for Azure Repos (limited public preview)</a></td>
+            <td><img src="roadmap/2023/media/checkmark.png" alt="Done" /> 2026 Q2</td>            
+         </tr>         
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Copilot Code Reviews for Azure Repos (public preview)](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Copilot Code Reviews for Azure Repos (public preview)</a></td>
+            <td>2026 Q3</td>
+         </tr>
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Improvements to onboarding and enablement of Copilot code reviews at the organization, project, and repository levels](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Improvements to onboarding and enablement of Copilot code reviews at the organization, project, and repository levels</a></td>
+            <td>2026 Q3</td>
+         </tr>
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Support for Copilot Instructions](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Support for Copilot Instructions</a></td>
+            <td>2026 Q3</td>
+         </tr>
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Automatic code reviews for new pull requests](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Automatic code reviews for new pull requests</a></td>
+            <td>2026 Q3</td>
+         </tr>         
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Cancel Copilot Code Review run](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Cancel Copilot Code Review run</a></td>
+            <td>2026 Q3</td>
+         </tr>
+         <tr>
+            <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Support for Managed DevOps Pools](/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos)">Support for Managed DevOps Pools</a></td>
+            <td>2026 Q3</td>
+         </tr>
+    </tbody>
+</table>
+
+
+
 ### GitHub Advanced Security for Azure DevOps
 
 GitHub Advanced Security for Azure DevOps (GHAzDO) brings additional security features to Azure DevOps under an additional license. Any project collection administrator can now enable Advanced Security for their organization, projects and repos from the Project Settings or Organization Settings. 
@@ -44,15 +91,13 @@ Upcoming capabilities we expect to deliver include:
 <table>
     <thead>
         <tr>
-            <th>Feature</th>
-            <th>Area</th>
+            <th>Feature</th>           
             <th>Quarter</th>
         </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot" data-raw-source="[Automatically fix detected dependency scanning vulnerabilities with Dependabot security updates](/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot)">Automatically fix detected dependency scanning vulnerabilities with Dependabot security updates</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
+        <td><a href="/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot" data-raw-source="[Automatically fix detected dependency scanning vulnerabilities with Dependabot security updates](/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot)">Automatically fix detected dependency scanning vulnerabilities with Dependabot security updates</a></td>       
         <td>Future</td>
       </tr>
    </tbody>
@@ -74,30 +119,25 @@ Azure DevOps supports many different authentication mechanisms, including basic 
 <table>
     <thead>
         <tr>
-            <th>Feature</th>
-            <th>Area</th>
+            <th>Feature</th>           
             <th>Quarter</th>
         </tr>
     </thead>
     <tbody>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2025/continuous-access-evaluation" data-raw-source="[Continuous access evaluation](/azure/devops/release-notes/roadmap/2025/continuous-access-evaluation)">Continuous access evaluation</a></td>
-         <td>General</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2025/continuous-access-evaluation" data-raw-source="[Continuous access evaluation](/azure/devops/release-notes/roadmap/2025/continuous-access-evaluation)">Continuous access evaluation</a></td>       
          <td>Future</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2025/proof-of-possession" data-raw-source="[Using device bound Entra tokens in Azure DevOps](/azure/devops/release-notes/roadmap/2025/proof-of-possession)">Using device bound Entra tokens in Azure DevOps</a></td>
-         <td>General</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2025/proof-of-possession" data-raw-source="[Using device bound Entra tokens in Azure DevOps](/azure/devops/release-notes/roadmap/2025/proof-of-possession)">Using device bound Entra tokens in Azure DevOps</a></td>        
          <td>Future</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement" data-raw-source="[Workload identity federation Azure DevOps issuer retirement](/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement)">Workload identity federation Azure DevOps issuer retirement</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement" data-raw-source="[Workload identity federation Azure DevOps issuer retirement](/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement)">Workload identity federation Azure DevOps issuer retirement</a></td>         
          <td>2027 Q2</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement-mta" data-raw-source="[Workload identity federation Azure DevOps issuer retirement for multi-tenant applications](/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement-mta)">Workload identity federation Azure DevOps issuer retirement for multi-tenant applications</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement-mta" data-raw-source="[Workload identity federation Azure DevOps issuer retirement for multi-tenant applications](/azure/devops/release-notes/roadmap/wif-azdo-issuer-retirement-mta)">Workload identity federation Azure DevOps issuer retirement for multi-tenant applications</a></td>        
          <td>Future</td>
       </tr>
     </tbody>
@@ -116,30 +156,25 @@ For the past several years, all our pipelines investments have been in the area 
 <table>
     <thead>
         <tr>
-            <th>Feature</th>
-            <th>Area</th>
+            <th>Feature</th>           
             <th>Quarter</th>
         </tr>
     </thead>
     <tbody>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2024/stage-traceability" data-raw-source="[Stage-level traceability](/azure/devops/release-notes/roadmap/2024/stage-traceability)">Stage-level traceability</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2024/stage-traceability" data-raw-source="[Stage-level traceability](/azure/devops/release-notes/roadmap/2024/stage-traceability)">Stage-level traceability</a></td>        
          <td>2027 Q1</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2025/on-demand-execution" data-raw-source="[On-demand out of order execution of stages](/azure/devops/release-notes/roadmap/2025/on-demand-execution)">On-demand out of order execution of stages</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2025/on-demand-execution" data-raw-source="[On-demand out of order execution of stages](/azure/devops/release-notes/roadmap/2025/on-demand-execution)">On-demand out of order execution of stages</a></td>        
          <td>2027 Q1</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2022/service-connections-in-checks" data-raw-source="[Service connections in checks](/azure/devops/release-notes/roadmap/2022/service-connections-in-checks)">Service connections in checks</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2022/service-connections-in-checks" data-raw-source="[Service connections in checks](/azure/devops/release-notes/roadmap/2022/service-connections-in-checks)">Service connections in checks</a></td>        
          <td>Future</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2022/checks-extensibility" data-raw-source="[Checks extensibility](/azure/devops/release-notes/roadmap/2022/checks-extensibility)">Checks extensibility</a></td>
-         <td>Pipelines</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2022/checks-extensibility" data-raw-source="[Checks extensibility](/azure/devops/release-notes/roadmap/2022/checks-extensibility)">Checks extensibility</a></td>        
          <td>Future</td>
       </tr>
     </tbody>
@@ -156,20 +191,17 @@ Below, you'll find several investments that we plan to deliver as part of this i
 <table>
     <thead>
         <tr>
-            <th>Feature</th>
-            <th>Area</th>
+            <th>Feature</th>           
             <th>Quarter</th>
         </tr>
     </thead>
     <tbody>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwright" data-raw-source="[Support for JavaScript (Playwright) in Azure Test Plans](/azure/devops/release-notes/roadmap/2025/testplans/support-for-pytest)">Support for JavaScript (Playwright) in Azure Test Plans</a></td>
-         <td>Test Plans</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwright" data-raw-source="[Support for JavaScript (Playwright) in Azure Test Plans](/azure/devops/release-notes/roadmap/2025/testplans/support-for-pytest)">Support for JavaScript (Playwright) in Azure Test Plans</a></td>         
          <td>2027 Q1</td>
       </tr>
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2026/testplans/TFE-Improved-Reliability" data-raw-source="[Improve the Reliability and Performance of the Azure Test Plans' Browser Extensions](/azure/devops/release-notes/roadmap/2026/testplans/TFE-Improved-Reliability)">Improve the Reliability and Performance of the Azure Test Plans' Browser Extensions</a></td>
-         <td>Test Plans</td>
+         <td><a href="/azure/devops/release-notes/roadmap/2026/testplans/TFE-Improved-Reliability" data-raw-source="[Improve the Reliability and Performance of the Azure Test Plans' Browser Extensions](/azure/devops/release-notes/roadmap/2026/testplans/TFE-Improved-Reliability)">Improve the Reliability and Performance of the Azure Test Plans' Browser Extensions</a></td>       
          <td>Future</td>
       </tr>
    </tbody>
@@ -188,44 +220,24 @@ Below, you'll find several investments that we plan to deliver as part of this i
         </tr>
     </thead>
     <tbody>       
-      <td rowspan="16"><strong>2026 Q3</strong></td>
+      <td rowspan="13"><strong>2026 Q3</strong></td>
       <td><a href="/azure/devops/release-notes/roadmap/2023/commits-search" data-raw-source="[Commits search](/azure/devops/release-notes/roadmap/2023/commits-search)">Commits search</a></td>
         <td>General</td>
       </tr>
       <tr>          
         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server(GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server (GA)</a></td>
         <td>General</td>
-      </tr>
-       <tr>
-         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a> (includes Enterprise Live Migrations support in private preview; see <a href="/azure/devops/release-notes/2026/general/sprint-276-update" data-raw-source="[Sprint 276 update](/azure/devops/release-notes/2026/general/sprint-276-update)">Sprint 276 update</a>)</td>
-         <td>General</td>         
-      </tr>    
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix" data-raw-source="[Copilot Autofix for code scanning alerts (public preview)](/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix)">Copilot Autofix for code scanning alerts (public preview)</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/security-detections" data-raw-source="[AI security detections for non-CodeQL supported languages](/azure/devops/release-notes/roadmap/2026/ghazdo/security-detections)">AI security detections for non-CodeQL supported languages</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
+      </tr>     
       <tr>          
         <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
         <td>Boards</td>
-      </tr>
-      <tr>          
-        <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
-        <td>Boards</td>
-      </tr>
+      </tr>      
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions" data-raw-source="[Bulk attachment actions in Azure Boards](/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions)">Bulk attachment actions in Azure Boards</a></td>
          <td>Boards</td>
-      </tr>
+      </tr>   
       <tr>
-        <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
-        <td>Repos</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
+      <td><a href="/azure/devops/release-notes/roadmap/2026/repos/copilot-code-reviews-azure-repos" data-raw-source="[Copilot Code Reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code Reviews for Azure Repos (public preview)</a></td>
         <td>Repos</td>
       </tr>     
       <tr>
@@ -251,7 +263,15 @@ Below, you'll find several investments that we plan to deliver as part of this i
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwright" data-raw-source="[Support for JavaScript (Playwright) in Azure Test Plans](/azure/devops/release-notes/roadmap/2025/testplans/support-for-playwrigth)">Support for JavaScript (Playwright) in Azure Test Plans</a></td>
          <td>Test Plans</td>
-      </tr>        
+      </tr>  
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix" data-raw-source="[Copilot Autofix for code scanning alerts (public preview)](/azure/devops/release-notes/roadmap/2026/ghazdo/copilot-autofix)">Copilot Autofix for code scanning alerts (public preview)</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/security-detections" data-raw-source="[AI security detections for non-CodeQL supported languages](/azure/devops/release-notes/roadmap/2026/ghazdo/security-detections)">AI security detections for non-CodeQL supported languages</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
+      </tr>      
       <td rowspan="20"><strong>Future</strong></td>
         <td><a href="/azure/devops/release-notes/roadmap/auditing-ga" data-raw-source="[Auditing GA](/azure/devops/release-notes/roadmap/auditing-ga)">Auditing GA</a></td>
         <td>General</td>
@@ -267,23 +287,7 @@ Below, you'll find several investments that we plan to deliver as part of this i
       <tr>
         <td><a href="/azure/devops/release-notes/roadmap/2024/pr-search" data-raw-source="[PR search](/azure/devops/release-notes/roadmap/2024/pr-search)">PR search</a></td>
         <td>General</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot" data-raw-source="[DependaBot Security Update Support](/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot)">Dependabot Security Update Support</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/code-to-cloud" data-raw-source="[Code-to-cloud integration with Defender for Cloud](/azure/devops/release-notes/roadmap/2026/ghazdo/code-to-cloud)">Code-to-cloud integration with Defender for Cloud</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/codeql-default" data-raw-source="[CodeQL default setup runs on pull request trigger](/azure/devops/release-notes/roadmap/2026/ghazdo/codeql-default)">CodeQL default setup runs on pull request trigger</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
-      <tr>
-        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/autofix-dependency-scanning" data-raw-source="[Copilot Autofix for dependency scanning alerts](/azure/devops/release-notes/roadmap/2026/ghazdo/autofix-dependency-scanning)">Copilot Autofix for dependency scanning alerts</a></td>
-        <td>GitHub Advanced Security for Azure DevOps</td>
-      </tr>
+      </tr>      
       <tr>
          <td>
             <a href="/azure/devops/release-notes/roadmap/2024/boards-yaml-stage-status-on-work-item" data-raw-source="[Report YAML stage status in deployment control on work items](/azure/devops/release-notes/roadmap/2024/boards-yaml-stage-status-on-work-item)">Report YAML stage status in deployment control on work items</a>
@@ -325,6 +329,22 @@ Below, you'll find several investments that we plan to deliver as part of this i
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2025/testplans/customizable-flaky-test" data-raw-source="[Customizable flaky test detection logic](/azure/devops/release-notes/roadmap/2025/testplans/customizable-flaky-test)">Customizable flaky test detection logic</a></td>
          <td>Test Plans</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot" data-raw-source="[DependaBot Security Update Support](/azure/devops/release-notes/roadmap/2024/ghazdo/dependabot)">Dependabot Security Update Support</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/code-to-cloud" data-raw-source="[Code-to-cloud integration with Defender for Cloud](/azure/devops/release-notes/roadmap/2026/ghazdo/code-to-cloud)">Code-to-cloud integration with Defender for Cloud</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/codeql-default" data-raw-source="[CodeQL default setup runs on pull request trigger](/azure/devops/release-notes/roadmap/2026/ghazdo/codeql-default)">CodeQL default setup runs on pull request trigger</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
+      </tr>
+      <tr>
+        <td><a href="/azure/devops/release-notes/roadmap/2026/ghazdo/autofix-dependency-scanning" data-raw-source="[Copilot Autofix for dependency scanning alerts](/azure/devops/release-notes/roadmap/2026/ghazdo/autofix-dependency-scanning)">Copilot Autofix for dependency scanning alerts</a></td>
+        <td>GitHub Advanced Security for Azure DevOps</td>
       </tr>
       <tr>
         <td><a href="/azure/devops/release-notes/roadmap/package-promote-task" data-raw-source="[Package promote task in Azure Pipelines](/azure/devops/release-notes/roadmap/package-promote-task)">Package promote task in Azure Pipelines</a></td>
