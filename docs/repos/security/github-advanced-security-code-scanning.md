@@ -51,7 +51,7 @@ Default setup scans the following languages: C#, C/C++, Java, JavaScript/TypeScr
 > You can start with default setup and switch to advanced setup later if you need more control, or use both. For information on configuring default setup, see [Configure GitHub Advanced Security features](configure-github-advanced-security-features.md#set-up-code-scanning).
 
 > [!NOTE]
-> When you enable CodeQL default setup at the organization or project level, an initial scan run is automatically queued for all affected repositories. Results begin appearing gradually as each repository's scan completes, without waiting for the next scheduled run.
+> When you enable CodeQL default setup at the organization or project level, an initial scan run automatically queues for all affected repositories. Results begin appearing gradually as each repository's scan completes, without waiting for the next scheduled run.
 
 ## Configure default setup options
 
@@ -192,7 +192,7 @@ CodeQL supports and uses the following language identifiers:
 
 For more information, see [Supported languages and frameworks](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/). 
 
-You can view the specific queries and task details executed by CodeQL in the build log. When using default setup, the enhanced log viewer provides clearer run naming and new state and repository filters to help you find and review specific scan runs in the Azure DevOps agent pool job log view.
+You can view the specific queries and task details that CodeQL executes in the build log. When you use default setup, the enhanced log viewer provides clearer run naming and new state and repository filters to help you find and review specific scan runs in the Azure DevOps agent pool job log view.
 
 [![Screenshot of code scanning publish results task.](./media/code-scanning-build-log.png)](./media/code-scanning-build-log.png#lightbox)
 
