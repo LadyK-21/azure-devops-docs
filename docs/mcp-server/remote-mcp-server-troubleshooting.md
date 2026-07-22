@@ -172,7 +172,7 @@ Run each step one at a time and keep the command output.
    az rest --method get --url "https://graph.microsoft.com/v1.0/servicePrincipals(appId='2a72489c-aab2-4b65-b93a-a91edccf33b8')"
    ```
 
-   Expected result: `404` with `Request_ResourceNotFound`. This confirms the issue.
+   Expected result: `404` with `Request_ResourceNotFound`. This result confirms the issue.
 
 1. Step 2 - Create the app in your tenant:
 
