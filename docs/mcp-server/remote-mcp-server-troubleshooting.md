@@ -148,6 +148,9 @@ You can't find the **Azure DevOps MCP** enterprise application in **Microsoft En
 
 The following procedure creates the missing service principal for Azure DevOps MCP in your tenant.
 
+> [!NOTE]
+> This procedure only creates the Azure DevOps MCP service principal. It doesn’t enable unsupported clients, expose custom MCP resource audiences, or add delegated scopes that aren’t available in your tenant.
+
 - Who needs to run this: A user with **Application Administrator**, **Cloud Application Administrator**, or **Global Administrator** permissions in your tenant.
 - Prerequisite: [Install Azure CLI](/cli/azure/install-azure-cli).
 - App ID: `2a72489c-aab2-4b65-b93a-a91edccf33b8`.
