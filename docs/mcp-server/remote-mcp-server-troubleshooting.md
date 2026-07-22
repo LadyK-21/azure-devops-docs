@@ -142,7 +142,7 @@ For a full list of error codes, see [Microsoft Entra authentication and authoriz
 
 ### Can't find the Azure DevOps MCP enterprise application in the tenant
 
-You are unable to find the **Azure DevOps MCP** enterprise application in **Microsoft Entra ID** > **Enterprise applications**, and remote MCP Server authentication fails.
+You can't find the **Azure DevOps MCP** enterprise application in **Microsoft Entra ID** > **Enterprise applications**, and remote MCP Server authentication fails.
 
 **Resolution:**
 
