@@ -2,8 +2,8 @@
 title: Work tracking, process, and project limits
 titleSuffix: Azure DevOps
 description: See limits on numbers of objects and operations you can specify for work items, queries, backlogs, boards, and other work tracking objects in Azure DevOps.
-ms.custom: inherited-process, linked-from-support, cross-project, support-driven-update
-ms.service: azure-devops-boards
+ms.custom: "inherited-process, linked-from-support, cross-project, support-driven-update"
+ms.service: azure-boards
 ms.author: chcomley
 author: chcomley
 ms.topic: reference
